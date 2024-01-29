@@ -16,7 +16,7 @@ public final class ShopGUIPlusEventListener implements Listener {
     private void onTransact(ShopPreTransactionEvent event) {
         final String TYPE = "Sell";
         final String NAMESPACE = "SHOPGUI_ECONOMY";
-        final double[] totalMulti = {1};
+        final double[] totalMulti = {0};
 
         BoosterFindResult pResult = IBoosterAPI.INSTANCE.getCache(event.getPlayer()).getBoosterDataManager().findActiveBooster(TYPE, NAMESPACE);
         if (pResult instanceof BoosterFindResult.Success boosterResult) {
@@ -28,7 +28,7 @@ public final class ShopGUIPlusEventListener implements Listener {
             return null;
         }, () -> null);
 
-        if (canBoost(event)) {
+        if (totalMulti[0] > 0 && canBoost(event)) {
             event.setPrice(calculateAmount(event.getPrice(), totalMulti[0]));
         }
     }

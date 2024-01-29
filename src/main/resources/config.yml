@@ -4,6 +4,6 @@ Shop_Category_Restriction:
 
 Shop_Item_Restriction:
   enabled: false
-  items: #list the shop items to only apply boost to format: 'category:id...'
+  items: #list the shop items to only apply boost to. Format: 'category:id...'
     - "blocks:1,4,5,9,10"
     - "ores:3,5"

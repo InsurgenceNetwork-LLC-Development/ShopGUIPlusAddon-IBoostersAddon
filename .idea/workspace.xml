@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd96f49-380f-4c8b-bfcb-05c53ce4c26e" name="Changes" comment="oops">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/insurgencedev/shopguiplusaddon/settings/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+    <list default="true" id="1bd96f49-380f-4c8b-bfcb-05c53ce4c26e" name="Changes" comment="added config.yml&#10;should be able to only boost specific shop categories or items">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/insurgencedev/shopguiplusaddon/ShopGUIPlusAddon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/insurgencedev/shopguiplusaddon/ShopGUIPlusAddon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/insurgencedev/shopguiplusaddon/listeners/ShopGUIPlusEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/insurgencedev/shopguiplusaddon/listeners/ShopGUIPlusEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706387134944</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added config.yml&#10;should be able to only boost specific shop categories or items">
+      <option name="closed" value="true" />
+      <created>1706481486683</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706481486683</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,6 +142,7 @@
     <MESSAGE value="multi handler update" />
     <MESSAGE value="api jar update" />
     <MESSAGE value="oops" />
-    <option name="LAST_COMMIT_MESSAGE" value="oops" />
+    <MESSAGE value="added config.yml&#10;should be able to only boost specific shop categories or items" />
+    <option name="LAST_COMMIT_MESSAGE" value="added config.yml&#10;should be able to only boost specific shop categories or items" />
   </component>
 </project>
