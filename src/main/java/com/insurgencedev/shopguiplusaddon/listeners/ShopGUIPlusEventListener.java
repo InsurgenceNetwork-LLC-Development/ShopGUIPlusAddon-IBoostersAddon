@@ -2,6 +2,7 @@ package com.insurgencedev.shopguiplusaddon.listeners;
 
 import com.insurgencedev.shopguiplusaddon.settings.MyConfig;
 import net.brcdev.shopgui.event.ShopPreTransactionEvent;
+import net.brcdev.shopgui.shop.ShopManager;
 import net.brcdev.shopgui.shop.item.ShopItem;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -14,6 +15,10 @@ public final class ShopGUIPlusEventListener implements Listener {
 
     @EventHandler
     private void onTransact(ShopPreTransactionEvent event) {
+        if (!event.getShopAction().equals(ShopManager.ShopAction.SELL)) {
+            return;
+        }
+
         final String TYPE = "Sell";
         final String NAMESPACE = "SHOPGUI_ECONOMY";
         final double[] totalMulti = {0};
