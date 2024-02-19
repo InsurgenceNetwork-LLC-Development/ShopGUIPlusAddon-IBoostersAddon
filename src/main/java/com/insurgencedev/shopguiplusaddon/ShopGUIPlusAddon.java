@@ -6,7 +6,7 @@ import org.insurgencedev.insurgenceboosters.api.addon.IBoostersAddon;
 import org.insurgencedev.insurgenceboosters.api.addon.InsurgenceBoostersAddon;
 import org.insurgencedev.insurgenceboosters.libs.fo.Common;
 
-@IBoostersAddon(name = "ShopGuiPlusAddon", version = "1.0.5", author = "InsurgenceDev", description = "ShopGUI+ Support")
+@IBoostersAddon(name = "ShopGuiPlusAddon", version = "1.0.6", author = "InsurgenceDev", description = "ShopGUI+ Support")
 public class ShopGUIPlusAddon extends InsurgenceBoostersAddon {
 
     private static MyConfig config;

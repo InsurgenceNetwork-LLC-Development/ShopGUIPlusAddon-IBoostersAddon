@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd96f49-380f-4c8b-bfcb-05c53ce4c26e" name="Changes" comment="multi now includes decimal">
+    <list default="true" id="1bd96f49-380f-4c8b-bfcb-05c53ce4c26e" name="Changes" comment="minor change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/insurgencedev/shopguiplusaddon/listeners/ShopGUIPlusEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/insurgencedev/shopguiplusaddon/listeners/ShopGUIPlusEventListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706627019815</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="minor change">
+      <option name="closed" value="true" />
+      <created>1707971218362</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707971218362</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +176,7 @@
     <MESSAGE value="added config.yml&#10;should be able to only boost specific shop categories or items" />
     <MESSAGE value="fixed multi" />
     <MESSAGE value="multi now includes decimal" />
-    <option name="LAST_COMMIT_MESSAGE" value="multi now includes decimal" />
+    <MESSAGE value="minor change" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor change" />
   </component>
 </project>
